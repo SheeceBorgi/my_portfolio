@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Lora, Montserrat, Space_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { OpeningScreen } from "@/components/layout/opening-screen";
@@ -93,6 +94,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {children}
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
