@@ -45,7 +45,7 @@ A professional portfolio website for Sheece Borgi, a Software Engineer with 5+ y
 - `npm run build` creates the production build.
 
 ## SEO and AI Discovery
-- `NEXT_PUBLIC_SITE_URL` is the only deployment environment variable.
+- `SITE_URL` is the only deployment environment variable.
 - Keep `/robots.txt`, `/sitemap.xml`, `/llms.txt`, `/opengraph-image`, `/icon.svg`, and `/favicon.ico` working.
 - Update `src/lib/site.ts` when public facts, contact links, keywords, or project content change.
 - Keep the custom 404 page at `src/app/not-found.tsx` and mark it `noindex`.

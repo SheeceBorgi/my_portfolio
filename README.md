@@ -27,7 +27,7 @@ npm run build
 Set the public canonical URL before deploying:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://your-production-domain.com
+SITE_URL=https://your-production-domain.com
 ```
 
 This controls canonical URLs, sitemap entries, robots output, `llms.txt`, and Open Graph metadata. Vercel falls back to `VERCEL_URL`; local development falls back to `http://localhost:3000`.
@@ -39,7 +39,7 @@ No other environment variables are required.
 1. Push the repository to GitHub.
 2. Import the repository in Vercel.
 3. Keep the detected Next.js settings.
-4. Add `NEXT_PUBLIC_SITE_URL` as an environment variable.
+4. Add `SITE_URL` as an environment variable.
 5. Deploy.
 
 ## SEO and AI discovery
