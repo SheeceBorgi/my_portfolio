@@ -1,7 +1,25 @@
 {
-  "name": "my_portfolio",
-  "version": "0.1.0",
+  "name": "sheece-borgi-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "description": "Portfolio of Sheece Borgi, a Software Engineer specializing in enterprise SaaS platforms, cloud infrastructure, and CI/CD automation.",
+  "license": "UNLICENSED",
+  "author": "Sheece Borgi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheeceBorgi/my_portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SheeceBorgi/my_portfolio/issues"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "software-engineer"
+  ],
   "engines": {
     "node": ">=20.9.0"
   },
