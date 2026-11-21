@@ -2,7 +2,7 @@
 
 Professional portfolio for Sheece Borgi, a Software Engineer with 5+ years building enterprise SaaS platforms, multi-tenant systems, cloud infrastructure, and CI/CD automation.
 
-Built with Next.js App Router, React, TypeScript, Tailwind CSS, Lucide React, and Framer Motion.
+Built with Next.js App Router, React, TypeScript, Tailwind CSS, Lucide React, next-themes, and CSS-based reveal animations.
 
 ## Local development
 

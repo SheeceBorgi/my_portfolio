@@ -10,7 +10,7 @@ A professional portfolio website for Sheece Borgi, a Software Engineer with 5+ y
 - Tailwind CSS 4 with Turbopack
 - ESLint 9
 - Lucide React for icons
-- Framer Motion for subtle reveal animations
+- CSS-based reveal animations that work without JavaScript
 - next-themes for light and dark themes
 
 ## Architecture Rules
@@ -58,6 +58,7 @@ A professional portfolio website for Sheece Borgi, a Software Engineer with 5+ y
 - Use meaningful component and variable names.
 - Handle loading and error states where applicable.
 - Keep the application compatible with static deployment where possible.
+- Never hide server-rendered content behind client-only JavaScript.
 
 ## AI Coding Rules
 - Inspect existing code before modifying it.

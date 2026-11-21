@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lora, Montserrat, Space_Mono } from "next/font/google";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
+import { OpeningScreen } from "@/components/layout/opening-screen";
 import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig, structuredData } from "@/lib/site";
 import "./globals.css";
@@ -86,6 +87,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
           }}
         />
+        <OpeningScreen />
         <ThemeProvider>
           <Header />
           {children}
