@@ -1,4 +1,4 @@
-# Sheece Borgi — Portfolio
+# Sheece Borgi - Portfolio
 
 Professional portfolio for Sheece Borgi, a Software Engineer with 5+ years building enterprise SaaS platforms, multi-tenant systems, cloud infrastructure, and CI/CD automation.
 
