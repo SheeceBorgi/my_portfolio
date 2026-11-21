@@ -1,9 +1,61 @@
-<!-- BEGIN:nextjs-agent-rules -->
 
-## This is NOT the Next.js you know
+# Developer Portfolio – Project Instructions
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+## Project Overview
+A professional portfolio website for a Full-Stack Software Engineer.
 
-This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+## Technology Stack
+- Next.js App Router
+- React
+- TypeScript (strict mode)
+- Tailwind CSS
+- ESLint
+- Lucide React for icons
 
-<!-- END:nextjs-agent-rules -->
+## Architecture Rules
+- Use Next.js App Router.
+- Prefer React Server Components.
+- Use Client Components only when interactivity requires them.
+- Keep components small, reusable and focused.
+- Separate content data from presentation components.
+- Use TypeScript types for structured data.
+- Use semantic HTML.
+- Follow responsive-first design principles.
+
+## Design Direction
+- Terminal-inspired developer portfolio.
+- Support dark and light themes.
+- Professional, modern and minimal appearance.
+- Use monospace typography for terminal elements.
+- Use readable typography for general content.
+- Avoid excessive animations and visual clutter.
+- Ensure accessibility and keyboard navigation.
+
+## Code Quality
+- Avoid unnecessary dependencies.
+- Avoid duplicated code.
+- Avoid `any` unless absolutely necessary.
+- Do not suppress TypeScript or ESLint errors without justification.
+- Use meaningful component and variable names.
+- Handle loading and error states where applicable.
+- Keep the application compatible with static deployment where possible.
+
+## AI Coding Rules
+- Inspect existing code before modifying it.
+- Never overwrite files without understanding their contents.
+- Explain architectural changes before implementing them.
+- Implement one task at a time.
+- Do not introduce unrelated changes.
+- Run lint and build checks after significant changes.
+- Report modified files and outstanding issues.
+
+## Security
+- Never expose secrets or API keys in client-side code.
+- Never commit environment secrets.
+- Do not include confidential employer information.
+- Do not expose local development services publicly.
+
+## Git
+- Use meaningful commit messages.
+- Keep commits focused on one logical change.
+- Do not commit generated build artifacts or dependencies.
